@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDT 保險規劃</title>
+    <style>
+        /* Reset 基本樣式 */
+        body, h1, h2, h3, p, ul, ol, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f7;
+            color: #1d1d1f;
+        }
+
+        .container {
+            width: 85%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .header h1 {
+            font-size: 56px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 24px;
+            color: #6e6e73;
+        }
+
+        .navbar {
+            background-color: #fff;
+            padding: 15px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .navbar ul {
+            list-style: none;
+            text-align: center;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        .navbar ul li a {
+            color: #1d1d1f;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        .navbar ul li a:hover {
+            color: #0071e3;
+        }
+
+        .main-content {
+            margin-top: 50px;
+            padding: 50px;
+            background-color: #fff;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            border-radius: 12px;
+        }
+
+        .main-content h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .main-content p {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #6e6e73;
+        }
+
+        .main-content ul {
+            margin-bottom: 20px;
+        }
+
+        .main-content ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .main-content a {
+            color: #0071e3;
+            text-decoration: none;
+        }
+
+        .main-content a:hover {
+            text-decoration: underline;
+        }
+
+        .services img, .about-us img, .testimonials img, .contact img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        .contact img {
+            width: 200px; /* 縮小圖片 */
+            height: auto; /* 保持圖片比例 */
+            display: block; /* 居中顯示 */
+            margin: 0 auto 20px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px 0;
+            background-color: #f5f5f7;
+            color: #6e6e73;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        .footer p {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact form input, .contact form textarea {
+            font-size: 18px;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 12px;
+        }
+
+        .contact form button {
+            font-size: 18px;
+            padding: 12px;
+            background-color: #0071e3;
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .contact form button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header class="header">
+        <h1>DDT 保險規劃</h1>
+        <p>專業的保險規劃服務</p>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#">首頁</a></li>
+            <li><a href="#about-us">關於我們</a></li>
+            <li><a href="#services">服務</a></li>
+            <li><a href="#testimonials">客戶推薦</a></li>
+            <li><a href="#contact">聯繫我們</a></li>
+        </ul>
+    </nav>
+
+    <div class="main-content">
+
+        <section id="about-us" class="about-us">
+            <h2>關於我們</h2>
+            <img src="https://images.pexels.com/photos/3760067/pexels-photo-3760067.jpeg" alt="關於我們">
+            <p>在 DDT 保險規劃，我們理解每個人和家庭的財務需求都是獨特的。我們的使命是通過專業的保險規劃和財務建議，幫助客戶實現他們的財務目標並保障他們的未來。</p>
+            <p>我們擁有一支經驗豐富、充滿熱情的專業團隊，致力於提供個性化的解決方案。我們的服務涵蓋財務規劃、投資管理、退休規劃以及保險規劃等多個方面，確保每一位客戶都能獲得量身定制的支持。</p>
+            <p>在 DDT 保險規劃，我們相信透明度和信任是成功的基石。我們竭盡全力提供最優質的服務，並與客戶建立長期的合作關係，幫助他們在財務旅程中做出明智的決策。</p>
+            <p>選擇 DDT 保險規劃，讓我們成為您可靠的財務夥伴，一起邁向更加美好的未來。</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>我們的服務</h2>
+            <img src="https://images.pexels.com/photos/7735630/pexels-photo-7735630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="我們的服務">
+            <p>DDT 保險規劃提供全面的保險規劃服務，包括以下幾個方面：</p>
+            <ul>
+                <li>
+                    <h3>財務規劃</h3>
+                    <p>我們的財務規劃服務旨在幫助您制定清晰的財務目標，並通過專業的建議和策略，確保您能夠實現這些目標。</p>
+                </li>
+                <li>
+                    <h3>投資組合管理</h3>
+                    <p>我們的專家將根據您的風險偏好和投資目標，為您打造多元化的投資組合，最大化您的投資回報。</p>
+                </li>
+                <li>
+                    <h3>退休規劃</h3>
+                    <p>我們幫助您制定詳細的退休計劃，確保您在退休後擁有穩定的收入來源，享受無憂無慮的晚年生活。</p>
+                </li>
+                <li>
+                    <h3>保險規劃</h3>
+                    <p>我們提供全面的保險解決方案，涵蓋人壽保險、健康保險等，確保您和您的家人在面對未知風險時得到充分的保障。</p>
+                </li>
+            </ul>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <h2>客戶推薦</h2>
+            <img src="https://images.pexels.com/photos/7734597/pexels-photo-7734597.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="客戶推薦">
+            <blockquote>
+                <p>“DDT 保險規劃團隊非常專業，幫助我制定了詳細的財務計劃，讓我對未來充滿信心。” - 許柏森</p>
+            </blockquote>
+            <blockquote>
+                <p>“在 DDT 的幫助下，我們的投資組合表現優異，退休計劃也進展順利。我們非常感激！” - 林泳祐</p>
+            </blockquote>
+        </section>
+        <section id="contact" class="contact">
+            <h2>聯繫我們</h2>
+            <img src="https://qr-official.line.me/sid/L/663wvalp.png" alt="聯繫我們">
+            <p>如有任何問題或需要更多信息，請通過以下方式與我們聯繫：</p>
+            <form>
+                <input type="text" name="name" placeholder="您的姓名" required>
+                <input type="email" name="email" placeholder="您的電子郵箱" required>
+                <textarea name="message" rows="5" placeholder="您的留言" required></textarea>
+                <button type="submit">發送信息</button>
+            </form>
+        </section>
+
+    </div>
+
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 DDT 保險規劃</p>
+    <p>聯繫我們：info@ddtinsurance.com | 123-456-7890</p>
+</footer>
+
+</body>
+</html>
